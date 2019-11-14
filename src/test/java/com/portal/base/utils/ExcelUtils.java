@@ -216,6 +216,71 @@ public class ExcelUtils {
 			}
 		}
 	}
+	/**
+	 * 对第一个方法重载，（不上传index表单）
+	 * @param sourceExcelPath excel的源路径
+	 * @param targetExcelPath 要回写的目标路径
+	 * @param sheetIndex sheet索引
+	 */
+	public static void batchWrite(String sourceExcelPath, String targetExcelPath) {
+		InputStream inputStream = null;
+		Workbook workbook =  null;
+		OutputStream outputStream = null;
+		try {
+			inputStream = ExcelUtils.class.getResourceAsStream(sourceExcelPath);;
+			 workbook =  WorkbookFactory.create(inputStream);
+			 //--------------回写第一个表单--------------
+			//在第1个表单的第一行的第一列
+			Sheet sheet0 = workbook.getSheetAt(0);
+			//获取全局数据池
+			List<CellData> cellDataList = ApiUtils.getCellDataList();
+			for (CellData cellData : cellDataList) {
+				Row row = sheet0.getRow(cellData.getRowNo()-1);
+				Cell cell = row.getCell(cellData.getColumnNo()-1, MissingCellPolicy.CREATE_NULL_AS_BLANK);
+				cell.setCellType(CellType.STRING);
+				cell.setCellValue(cellData.getContent());
+			}
+			
+			 //--------------回写第3个表单--------------
+			Sheet sheet2 = workbook.getSheetAt(2);
+			//获取全局数据池
+			List<CellData> sqlCellDataList = ApiUtils.getSqlCellDataList();
+			for (CellData cellData : sqlCellDataList) {
+				Row row = sheet2.getRow(cellData.getRowNo()-1);
+				Cell cell = row.getCell(cellData.getColumnNo()-1, MissingCellPolicy.CREATE_NULL_AS_BLANK);
+				cell.setCellType(CellType.STRING);
+				cell.setCellValue(cellData.getContent());
+			}
+			
+			outputStream = new FileOutputStream(new File(targetExcelPath));
+			workbook.write(outputStream);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (inputStream != null) {
+				try {
+					inputStream.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			if (workbook !=null) {
+				try {
+					workbook.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			if (inputStream != null) {
+				try {
+					inputStream.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
 
 	public static void batchWrite2(String sourceExcelPath, String targetExcelPath, int sheetIndex) {
 		InputStream inputStream = null;

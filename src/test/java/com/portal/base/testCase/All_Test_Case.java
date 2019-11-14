@@ -59,8 +59,9 @@ public class All_Test_Case {
 	@AfterSuite
 	public void afterSuite() {
 
-		ExcelUtils.batchWrite("/case17/test_case_01.xlsx", "e://api.xlsx", 0);
-		ExcelUtils.batchWrite("/case17/test_case_01.xlsx", "e://api.xlsx", 2);
+		ExcelUtils.batchWrite("/case17/test_case_01.xlsx","e://api.xlsx");
+		
+		
 
 	}
 

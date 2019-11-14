@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\api_test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">test_case(ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">test_case(ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">test_case(ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecif...)">test_case(ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecif...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={&quot;staffId&quot;:&quot;3&quot;,&quot;architect...)">test_case(ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)">test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间,...)">test_case(ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={&quot;id&quot;:&quot;3&quot;,&quot;password&quot;:&quot;Abc...)">test_case(ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={"id":"3","password":"Abc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">test_case(ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.portal.base.testCase.All_Test_Case" hash-for-method="test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)">test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.portal.base.testCase.All_Test_Case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.custStatusSet[1]","expected":"信息不全"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=4])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.cardStatusSet[0]","expected":"无身份证照片"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=5])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.functionStatusSet[0]","expected":"账户异常"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=6])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecif...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecif...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身份证号）
+提取101156卡号：${card101156}
+提取：${id}
+取产品：$.result.personInfo.personalProducts[?(@.productCode = 101156)]].productAcct, requestData={"OPEN_ID":13340775174,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=【实际结果回写到文件E://api.xslx】, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[0].productAcct","paramName":"CARD_LCZ"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=2])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={&quot;staffId&quot;:&quot;3&quot;,&quot;architect...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architect...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architectId":1,"businessId":"1","startDate":1564990487000,"endDate":1564990487000,"serviceRole":"3","mainSessionId":"","channelTypeList":[3,5]}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=查询话务记录, apiName=查询话务记录, url=http://f1.test-adm.weoa.com//rcs-ucsa-admin/recording/getPhoneResults, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=8])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1, requestData={"OPEN_ID":13847787459,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[0].productCode","expected":"120002"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[0].productAcct","paramName":"CARD_LHC"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=9])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间,...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间,...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间, requestData={"CARD_NUMBER":6236330015300082792}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.result.CARD_ATTR_DESC","expected":"正常"},
+{"jsonPath":"$.result.result.ACCOUNT_ATTR_DESC","expected":"账户异常,证件信息异常,风险管控"},
+{"jsonPath":"$.result.result.CUST_ATTR_DESC","expected":"账户异常"},
+{"jsonPath":"$.result.result.OPENDATE","expected":"20181120"}], extractRespData=, apiInfo=ApiInfo [apiId=WE卡信息查询, apiName=WE卡信息查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/weCard/getWeCard, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=11])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={&quot;id&quot;:&quot;3&quot;,&quot;password&quot;:&quot;Abc...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={"id":"3","password":"Abc...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={"id":"3","password":"Abcd@1234","architectId":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=后台管理登陆, apiName=后台管理登陆, url=http://f1.test-adm.weoa.com/rcs-ucsa-admin/staff/loginAdmin, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=7])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={&quot;CARD_NU...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.accountInfo.CUST_ACCOUNT_TYPE","expected":"101156"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=3])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)">
+                  </a> <!-- test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...) -->
+                  <span class="method-name">test_case</span>
+                  <span class="parameters">(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1, requestData={"OPEN_ID":17095330035,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[11].productCode","expected":"101136"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[11].productAcct","paramName":"CARD_WE"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=10])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\api_test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;all-test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.portal.base.testCase.All_Test_Case&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- all-test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">all-test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_case')
+data.setCell(0, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(0, 3, 2451);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_case')
+data.setCell(1, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(1, 3, 2393);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_case')
+data.setCell(2, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(2, 3, 1265);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_case')
+data.setCell(3, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(3, 3, 187);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_case')
+data.setCell(4, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(4, 3, 182);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_case')
+data.setCell(5, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(5, 3, 181);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_case')
+data.setCell(6, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(6, 3, 181);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_case')
+data.setCell(7, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(7, 3, 105);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_case')
+data.setCell(8, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(8, 3, 32);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_case')
+data.setCell(9, 2, 'com.portal.base.testCase.All_Test_Case')
+data.setCell(9, 3, 27);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.portal.base.testCase.All_Test_Case</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecif...)</span>
+                <span class="method-start">1402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</span>
+                <span class="method-start">3894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</span>
+                <span class="method-start">4085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</span>
+                <span class="method-start">4269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NU...)</span>
+                <span class="method-start">4453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={"id":"3","password":"Abc...)</span>
+                <span class="method-start">4638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architect...)</span>
+                <span class="method-start">4673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)</span>
+                <span class="method-start">4702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1...)</span>
+                <span class="method-start">5970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case(ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间,...)</span>
+                <span class="method-start">8425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">8564 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

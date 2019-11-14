@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 18:01:54 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7721 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=M1查ECIF, apiId=M1查询客户个人信息接口,describe=(需要添加测试数据：进线号码)
+此处添加测试号码 
+APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身份证号）
+提取101156卡号：${card101156}
+提取：${id}
+取产品：$.result.personInfo.personalProducts[?(@.productCode = 101156)]].productAcct, requestData={"OPEN_ID":13340775174,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=【实际结果回写到文件E://api.xslx】, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[0].productAcct","paramName":"CARD_LCZ"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=2]</td>
+<td></td>
+<td>2</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=理财子查询1, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.accountInfo.CUST_ACCOUNT_TYPE","expected":"101156"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=3]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=理财子查询2, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.custStatusSet[1]","expected":"信息不全"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=4]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=理财子查询3, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.cardStatusSet[0]","expected":"无身份证照片"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=5]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=理财子查询4, apiId=理财子查询,describe=1M1环境查询查询地址、已经获取卡号
+2、正常获取值, requestData={"CARD_NUMBER":6236330053990085213,"CUST_ACCOUNT_TYPE": 101156}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.functionStatusSet[0]","expected":"账户异常"}], extractRespData=, apiInfo=ApiInfo [apiId=理财子查询, apiName=理财子查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=6]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=后台login, apiId=后台管理登陆,describe=后台登陆-管理员, requestData={"id":"3","password":"Abcd@1234","architectId":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=后台管理登陆, apiName=后台管理登陆, url=http://f1.test-adm.weoa.com/rcs-ucsa-admin/staff/loginAdmin, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=7]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architectId":1,"businessId":"1","startDate":1564990487000,"endDate":1564990487000,"serviceRole":"3","mainSessionId":"","channelTypeList":[3,5]}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=查询话务记录, apiName=查询话务记录, url=http://f1.test-adm.weoa.com//rcs-ucsa-admin/recording/getPhoneResults, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=8]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1, requestData={"OPEN_ID":13847787459,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[0].productCode","expected":"120002"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[0].productAcct","paramName":"CARD_LHC"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=9]</td>
+<td></td>
+<td>1</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1, requestData={"OPEN_ID":17095330035,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[11].productCode","expected":"101136"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[11].productAcct","paramName":"CARD_WE"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=10]</td>
+<td></td>
+<td>2</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+<tr>
+<td title='com.portal.base.testCase.All_Test_Case.test_case()'><b>test_case</b><br>Test class: com.portal.base.testCase.All_Test_Case<br>Parameters: ApiCaseDetail [caseId=业务-WE卡, apiId=WE卡信息查询,describe=查询核对WE卡返回信息内容
+1、卡号
+2、卡片状态
+3、客户状态
+4、账户状态
+5、开户时间, requestData={"CARD_NUMBER":6236330015300082792}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.result.CARD_ATTR_DESC","expected":"正常"},
+{"jsonPath":"$.result.result.ACCOUNT_ATTR_DESC","expected":"账户异常,证件信息异常,风险管控"},
+{"jsonPath":"$.result.result.CUST_ATTR_DESC","expected":"账户异常"},
+{"jsonPath":"$.result.result.OPENDATE","expected":"20181120"}], extractRespData=, apiInfo=ApiInfo [apiId=WE卡信息查询, apiName=WE卡信息查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/weCard/getWeCard, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=11]</td>
+<td></td>
+<td>0</td>
+<td>com.portal.base.testCase.All_Test_Case@679b62af</td></tr>
+</table><p>
+</body>
+</html>

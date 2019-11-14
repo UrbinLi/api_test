@@ -118,22 +118,27 @@ public class ApiUtils {
 	 *            测试用例对象
 	 */
 	public static void extractResqData(String actualResult, ApiCaseDetail apiCaseDetail) {
+//		System.out.println("EEEEEE="+actualResult.toString());
 		// 这是excel中设计的提取数据的json字符串
 		String extractRespDataStr = apiCaseDetail.getExtractRespData();
 		List<ExtractRespData> respDataList = JSONObject.parseArray(extractRespDataStr, ExtractRespData.class);
 		if (respDataList == null) {
 			return;
 		}
+//		System.out.println("DDDDDDDDDDDDD="+actualResult.toString());
 		//把实际响应结果解析成jsonpath对应的对象
 		Object document = Configuration.defaultConfiguration().jsonProvider().parse(actualResult);
 		
+//		System.out.println("AAAAAAAAAAAAA="+document.toString());
 		for (ExtractRespData extractRespData : respDataList) {
 			//要提取数据对应的jsonPath
 			String jsonPath = extractRespData.getJsonPath();
 			//参数名称
 			String paramName = extractRespData.getParamName();
 			//通过jsonpath技术提取对应的数据
+//			System.out.println("CCCCCCCCCCCC="+document.toString());
 			Object paramValue = JsonPath.read(document, jsonPath);
+//			System.out.println("BBBBBBBBBB="+paramValue.toString());
 			//提取出来的数据放到全局数据池
 			ParamUtils.addGlobalData(paramName, paramValue);
 		}
