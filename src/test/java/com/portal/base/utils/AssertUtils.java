@@ -24,7 +24,7 @@ public class AssertUtils {
 	 */
 	public static void assertRespKeyInfo(ApiCaseDetail apiCaseDetail, String actualResult) {
 		//[{"aaaa":"$.code","bbbb":2},{"cccc":"$.msg","ddd":"账号已存在"}] --> map
-		//[{"jsonPath":"$.code","expected":2},{"jsonPath":"$.msg","expected":"账号已存在"}] -->自己去抽象出类
+		//[{"jsonPath":"$.code","expected":2},{"jsonPath":"$.msg","expected":"账号已存在"}] -->抽象出类
 		//断言关键信息的字符串
 		String keyInfoStr = apiCaseDetail.getExpectedRespKeyInfo();
 		//解析成列表

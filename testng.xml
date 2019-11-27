@@ -3,7 +3,7 @@
 <suite name="Suite" parallel="false">
 	<test name="all-test">
 		<classes>
-			<class name="com.portal.base.testCase.All_Test_Case" />
+			<class name="com.portal.base.testCase.All_Test_Case"/>
 		</classes>
 	</test>
 </suite> 

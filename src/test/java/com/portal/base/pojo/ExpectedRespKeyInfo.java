@@ -1,8 +1,8 @@
 package com.portal.base.pojo;
 
 /**
- * "[{""jsonPath"":""$.code"",""expected"":2},
- * {""jsonPath"":""$.msg"",""expected"":""账号已存在""}]"
+ * "[{""jsonPath"":""$.code"",""expected"":0},
+ * {""jsonPath"":""$.msg"",""expected"":""请求成功""}]"
  * 
  * @author v_wbxingli
  *

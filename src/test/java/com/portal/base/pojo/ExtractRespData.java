@@ -1,6 +1,11 @@
 package com.portal.base.pojo;
-
+/**
+ * 实际响应结果提取
+ * @author v_wbxingli
+ *
+ */
 public class ExtractRespData {
+	
 
 	// [{"jsonPath":"$.data.id","paramName":"member_id"},"jsonPath":"$.data.token","paramName":"token"}]
 

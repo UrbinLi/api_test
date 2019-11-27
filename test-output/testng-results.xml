@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="2" total="32" passed="30">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8500" started-at="2019-11-14T01:46:56Z" finished-at="2019-11-14T01:47:04Z">
+  <suite name="Default suite" duration-ms="13068" started-at="2019-11-26T06:21:13Z" finished-at="2019-11-26T06:21:26Z">
     <groups>
     </groups>
-    <test name="all-test" duration-ms="8500" started-at="2019-11-14T01:46:56Z" finished-at="2019-11-14T01:47:04Z">
+    <test name="Default test" duration-ms="13068" started-at="2019-11-26T06:21:13Z" finished-at="2019-11-26T06:21:26Z">
       <class name="com.portal.base.testCase.All_Test_Case">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="beforeSuite" is-config="true" duration-ms="34" started-at="2019-11-14T09:46:56Z" finished-at="2019-11-14T09:46:56Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="beforeSuite" is-config="true" duration-ms="52" started-at="2019-11-26T14:21:13Z" finished-at="2019-11-26T14:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="2393" started-at="2019-11-14T09:46:57Z" data-provider="getData" finished-at="2019-11-14T09:46:59Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="2564" started-at="2019-11-26T14:21:15Z" data-provider="getData" finished-at="2019-11-26T14:21:17Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@ APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="187" started-at="2019-11-14T09:46:59Z" data-provider="getData" finished-at="2019-11-14T09:47:00Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="116" started-at="2019-11-26T14:21:17Z" data-provider="getData" finished-at="2019-11-26T14:21:17Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@ APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="181" started-at="2019-11-14T09:47:00Z" data-provider="getData" finished-at="2019-11-14T09:47:00Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="100" started-at="2019-11-26T14:21:17Z" data-provider="getData" finished-at="2019-11-26T14:21:17Z">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@ APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="181" started-at="2019-11-14T09:47:00Z" data-provider="getData" finished-at="2019-11-14T09:47:00Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="106" started-at="2019-11-26T14:21:17Z" data-provider="getData" finished-at="2019-11-26T14:21:18Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@ APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="182" started-at="2019-11-14T09:47:00Z" data-provider="getData" finished-at="2019-11-14T09:47:00Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="99" started-at="2019-11-26T14:21:18Z" data-provider="getData" finished-at="2019-11-26T14:21:18Z">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="32" started-at="2019-11-14T09:47:00Z" data-provider="getData" finished-at="2019-11-14T09:47:00Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="32" started-at="2019-11-26T14:21:18Z" data-provider="getData" finished-at="2019-11-26T14:21:18Z">
           <params>
             <param index="0">
               <value>
@@ -96,23 +96,66 @@ APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="27" started-at="2019-11-14T09:47:00Z" data-provider="getData" finished-at="2019-11-14T09:47:00Z">
+        <test-method status="FAIL" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="22" started-at="2019-11-26T14:21:18Z" data-provider="getData" finished-at="2019-11-26T14:21:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architectId":1,"businessId":"1","startDate":1564990487000,"endDate":1564990487000,"serviceRole":"3","mainSessionId":"","channelTypeList":[3,5]}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+                <![CDATA[ApiCaseDetail [caseId=后台话务结果, apiId=查询话务记录,describe=话务记录查看当天的, requestData={"staffId":"3","architectId":1,"businessId":"1","startDate":1564990487000,"endDate":1564990487000,"serviceRole":"3","mainSessionId":","channelTypeList":[3,5]}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
 {"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=查询话务记录, apiName=查询话务记录, url=http://f1.test-adm.weoa.com//rcs-ucsa-admin/recording/getPhoneResults, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=8]]]>
               </value>
             </param>
           </params>
+          <exception class="com.jayway.jsonpath.PathNotFoundException">
+            <message>
+              <![CDATA[Expected to find an object with property ['code'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property ['code'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.
+	at com.jayway.jsonpath.internal.path.PropertyPathToken.evaluate(PropertyPathToken.java:71)
+	at com.jayway.jsonpath.internal.path.RootPathToken.evaluate(RootPathToken.java:62)
+	at com.jayway.jsonpath.internal.path.CompiledPath.evaluate(CompiledPath.java:53)
+	at com.jayway.jsonpath.internal.path.CompiledPath.evaluate(CompiledPath.java:61)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:187)
+	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:102)
+	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:85)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:488)
+	at com.portal.base.utils.AssertUtils.assertRespKeyInfo(AssertUtils.java:45)
+	at com.portal.base.testCase.All_Test_Case.test_case(All_Test_Case.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.jayway.jsonpath.PathNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="1265" started-at="2019-11-14T09:47:00Z" data-provider="getData" finished-at="2019-11-14T09:47:02Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="1115" started-at="2019-11-26T14:21:18Z" data-provider="getData" finished-at="2019-11-26T14:21:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=联合存-1
+                <![CDATA[ApiCaseDetail [caseId=客户信息-联合存, apiId=M1查询客户个人信息接口,describe=联合存-1
 获取联合存的卡号信息
 openid：写入查询的内容
 提取出卡号 类似与案例1, requestData={"OPEN_ID":13847787459,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
@@ -124,23 +167,62 @@ openid：写入查询的内容
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="2451" started-at="2019-11-14T09:47:02Z" data-provider="getData" finished-at="2019-11-14T09:47:04Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="110" started-at="2019-11-26T14:21:19Z" data-provider="getData" finished-at="2019-11-26T14:21:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ApiCaseDetail [caseId=客户信息, apiId=M1查询客户个人信息接口,describe=WE卡-1
-获取联合存的卡号信息
-openid：写入查询的内容
-提取出卡号 类似与案例1, requestData={"OPEN_ID":17095330035,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+                <![CDATA[ApiCaseDetail [caseId=联合存-客户信息, apiId=联合存-客户信息,describe=备注：(120001:货基，120002:提额，RETAIL003：HJ通户，101156:理财子)
+1、校验, requestData={"CARD_NUMBER":6236330053974092250,"CUST_ACCOUNT_TYPE":"120002"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
 {"jsonPath":"$.msg","expected":"请求成功"},
-{"jsonPath":"$.result.personInfo.personalProducts[11].productCode","expected":"101136"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[11].productAcct","paramName":"CARD_WE"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=10]]]>
+{"jsonPath":"$.result.cardStatusSet[0]","expected":"正常"}], extractRespData=, apiInfo=ApiInfo [apiId=联合存-客户信息, apiName=联合存-客户信息, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccountFromDepositCore, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=10]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="105" started-at="2019-11-14T09:47:04Z" data-provider="getData" finished-at="2019-11-14T09:47:04Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="225" started-at="2019-11-26T14:21:19Z" data-provider="getData" finished-at="2019-11-26T14:21:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=联合存-合作行信息, apiId=联合存-合作行信息,describe=一个合作行信息, requestData={"CARD_NUMBER":"6236330053974092250"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.list[0].COOP_BANK_CODE","expected":"1001"}], extractRespData=, apiInfo=ApiInfo [apiId=联合存-合作行信息, apiName=联合存-合作行信息, url=http://m1.test-adm.weoa.com/rcs-ucsa/jointDeposit/getCoopBankInfo, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=11]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="212" started-at="2019-11-26T14:21:19Z" data-provider="getData" finished-at="2019-11-26T14:21:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=联合存-司法冻结明细, apiId=联合存-司法冻结明细,describe=数据等待18号, requestData={"CARD_NUMBER":"6236330053974092250","CUST_ACCOUNT_TYPE":120002,"currentPage":1,"size":10}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=联合存-司法冻结明细, apiName=联合存-司法冻结明细, url=http://m1.test-adm.weoa.com/rcs-ucsa/jointDeposit/getFrozenDetailByPage, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=12]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="2109" started-at="2019-11-26T14:21:19Z" data-provider="getData" finished-at="2019-11-26T14:21:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=客户信息-WE卡, apiId=M1查询客户个人信息接口,describe=WE卡-1
+获取联合存的卡号信息
+openid：写入查询的内容
+提取出卡号 类似与案例1, requestData={"OPEN_ID":17095330035,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[11].productCode","expected":"101136"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[11].productAcct","paramName":"CARD_WE"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=13]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="83" started-at="2019-11-26T14:21:22Z" data-provider="getData" finished-at="2019-11-26T14:21:22Z">
           <params>
             <param index="0">
               <value>
@@ -154,18 +236,335 @@ openid：写入查询的内容
 {"jsonPath":"$.result.result.CARD_ATTR_DESC","expected":"正常"},
 {"jsonPath":"$.result.result.ACCOUNT_ATTR_DESC","expected":"账户异常,证件信息异常,风险管控"},
 {"jsonPath":"$.result.result.CUST_ATTR_DESC","expected":"账户异常"},
-{"jsonPath":"$.result.result.OPENDATE","expected":"20181120"}], extractRespData=, apiInfo=ApiInfo [apiId=WE卡信息查询, apiName=WE卡信息查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/weCard/getWeCard, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=11]]]>
+{"jsonPath":"$.result.result.OPENDATE","expected":"20181120"}], extractRespData=, apiInfo=ApiInfo [apiId=WE卡信息查询, apiName=WE卡信息查询, url=http://m1.test-adm.weoa.com/rcs-ucsa/weCard/getWeCard, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=14]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_case -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="afterSuite" is-config="true" duration-ms="1520" started-at="2019-11-14T09:47:04Z" finished-at="2019-11-14T09:47:06Z">
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="1118" started-at="2019-11-26T14:21:22Z" data-provider="getData" finished-at="2019-11-26T14:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=客户信息-小鹅卡, apiId=K查询客户个人信息接口,describe=小鹅卡账户信息获取K环境
+1、提取出ecifno信息
+2、正常获取到小鹅卡的卡号
+3、产品号+渠道号【101152】, requestData={"OPEN_ID":13266553902,"PRODUCT":"ALL","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[2].productCode","expected":"101152"}], extractRespData=[{"jsonPath":"$.result.personInfo.ecifNo","paramName":"ECIF_XEHQ"}], apiInfo=ApiInfo [apiId=K查询客户个人信息接口, apiName=K查询客户个人信息接口, url=http://k.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=15]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="285" started-at="2019-11-26T14:21:23Z" data-provider="getData" finished-at="2019-11-26T14:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=小鹅卡-账户信息, apiId=账户+2.0（小鹅卡）账户信息,describe=获取账户详情核对一下信息
+1、姓名、性别
+2、账号、手机号、客户号
+3、信用额度、额度状态
+4、可用信用额度、可用取现额度
+, requestData={"ecifNo":"0999960000034594","PS_CODE":"PSTX001","CORP_ID":"100955"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.result.NAME","expected":"李兴"},
+{"jsonPath":"$.result.APP_TYPE","expected":"F"},
+{"jsonPath":"$.result.DD_CARD_NO_FULL","expected":"6200597987221125845"},
+{"jsonPath":"$.result.PHONE","expected":"13266553902"},
+{"jsonPath":"$.result.CREDIT_SATUS","expected":"Y"}], extractRespData=, apiInfo=ApiInfo [apiId=账户+2.0（小鹅卡）账户信息, apiName=账户+2.0（小鹅卡）账户信息, url=http://k.test-adm.weoa.com/rcs-ucsa/visualEnjoyCard/getAccountInfo, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=16]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="163" started-at="2019-11-26T14:21:23Z" data-provider="getData" finished-at="2019-11-26T14:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=小鹅卡-月账单, apiId=账户+2.0（小鹅卡）账单列表,describe=1、查询默认展示的第一页内容账单
+2、核对数据如下：
+, requestData={"ecifNo":"0999960000034594","startMonth":"201906","endMonth":"201911","currentPage":1,"size":10,"PS_CODE":"PSTX001","CORP_ID":"100955"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.page.totalCount","expected":2}], extractRespData=, apiInfo=ApiInfo [apiId=账户+2.0（小鹅卡）账单列表, apiName=账户+2.0（小鹅卡）账单列表, url=http://k.test-adm.weoa.com/rcs-ucsa/visualEnjoyCard/getBillByPage, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=17]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="202" started-at="2019-11-26T14:21:23Z" data-provider="getData" finished-at="2019-11-26T14:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=小鹅卡-分期信息, apiId=账户+2.0（小鹅卡）分期列表,describe=1、获取分期列表信息, requestData={"ecifNo":"0999960000034594","startMonth":"201706","endMonth":"202111","currentPage":1,"size":10,"PS_CODE":"PSTX001","CORP_ID":"100955"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.page.totalCount","expected":3}], extractRespData=, apiInfo=ApiInfo [apiId=账户+2.0（小鹅卡）分期列表, apiName=账户+2.0（小鹅卡）分期列表, url=http://k.test-adm.weoa.com/rcs-ucsa/visualEnjoyCard/getAmortizeByPage, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=18]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="372" started-at="2019-11-26T14:21:23Z" data-provider="getData" finished-at="2019-11-26T14:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=小鹅卡-账单详情, apiId=账户+2.0（小鹅卡）账单详情,describe=查看单独一个月的账单信息, requestData={"ecifNo":"0999960000034594","stmtMonth":"201910","currentPage":0,"size":20,"PS_CODE":"PSTX001","CORP_ID":"100955"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.page.totalCount","expected":4}], extractRespData=, apiInfo=ApiInfo [apiId=账户+2.0（小鹅卡）账单详情, apiName=账户+2.0（小鹅卡）账单详情, url=http://k.test-adm.weoa.com/rcs-ucsa/visualEnjoyCard/getBillDetailByPage, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=19]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="182" started-at="2019-11-26T14:21:24Z" data-provider="getData" finished-at="2019-11-26T14:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=小鹅卡-分期明细, apiId=账户+2.0（小鹅卡）分期明细,describe=获取分期明细信息, requestData={"ecifNo":"0999960000034594","startMonth":"201906","endMonth":"201911","currentPage":1,"size":10,"PS_CODE":"PSTX001","CORP_ID":"100955"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.page.totalCount","expected":1}], extractRespData=, apiInfo=ApiInfo [apiId=账户+2.0（小鹅卡）分期明细, apiName=账户+2.0（小鹅卡）分期明细, url=http://k.test-adm.weoa.com/rcs-ucsa/visualEnjoyCard/getAmortizeByPage, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=20]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="69" started-at="2019-11-26T14:21:24Z" data-provider="getData" finished-at="2019-11-26T14:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=业务-E卡客户信息, apiId=M1查询客户个人信息接口,describe=取值10004EDCN数据
+1、取出E卡的卡号数据
+2、核对账户信息, requestData={"OPEN_ID":13032771413,"PRODUCT":"100004","APP_TYPE":3,"REQ_DS":0}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.personInfo.personalProducts[0].productCode","expected":"101143"}], extractRespData=[{"jsonPath":"$.result.personInfo.personalProducts[0].productAcct","paramName":"CARD_E"}], apiInfo=ApiInfo [apiId=M1查询客户个人信息接口, apiName=M1查询客户个人信息接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/business/getAccount, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=21]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="108" started-at="2019-11-26T14:21:24Z" data-provider="getData" finished-at="2019-11-26T14:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=获取E卡客户信息, apiId=E卡客户信息,describe=获取E卡信息, requestData={"CARD_NUMBER":6236330015700014163}, actualResp=, expectedRespKeyInfo=, extractRespData=, apiInfo=ApiInfo [apiId=E卡客户信息, apiName=E卡客户信息, url=http://m1.test-adm.weoa.com/rcs-ucsa/eCard/getECard, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=22]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="67" started-at="2019-11-26T14:21:24Z" data-provider="getData" finished-at="2019-11-26T14:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=获取E卡客户信息2, apiId=E卡信息风险码查询接口,describe=查询E卡已有的风险码, requestData={"CARD_NUMBER":6236330015700014163}, actualResp=, expectedRespKeyInfo=, extractRespData=, apiInfo=ApiInfo [apiId=E卡信息风险码查询接口, apiName=E卡信息风险码查询接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/eCard/getECardRiskCode, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=23]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="17" started-at="2019-11-26T14:21:24Z" data-provider="getData" finished-at="2019-11-26T14:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=获取E卡客户信息3, apiId=E卡信息风险码设置接口,describe=设置客服的风险码
+PS：需要传递一个callid, requestData=, actualResp=, expectedRespKeyInfo=, extractRespData=, apiInfo=ApiInfo [apiId=E卡信息风险码设置接口, apiName=E卡信息风险码设置接口, url=http://m1.test-adm.weoa.com/rcs-ucsa/eCard/setECardRiskCode, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=24]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="197" started-at="2019-11-26T14:21:24Z" data-provider="getData" finished-at="2019-11-26T14:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=汽车金融用户信息, apiId=汽车金融-个人中心,describe=获取平台信息, requestData={"ID_NO":"220105198506031993","NAME":"肖跑跑"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=汽车金融-个人中心, apiName=汽车金融-个人中心, url=http://g1.test-adm.weoa.com/rcs-ucsa/carLoan/getPersonalCenter, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=25]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="262" started-at="2019-11-26T14:21:25Z" data-provider="getData" finished-at="2019-11-26T14:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=汽车金融-订单详情, apiId=汽车金融-订单查询,describe=提取出平台订单号, requestData={"ID_NO":"220105198506031993","NAME":"肖跑跑","SYS_SERVICE":"06100007","NBS_ORDER_NO":"233305252716160772","PS_CODE":"PS603","MERCHANT_ID":"777110050130811"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=汽车金融-订单查询, apiName=汽车金融-订单查询, url=http://g1.test-adm.weoa.com/rcs-ucsa/carLoan/getOrder, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=26]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="287" started-at="2019-11-26T14:21:25Z" data-provider="getData" finished-at="2019-11-26T14:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=汽车金融-还款详情, apiId=汽车金融-还款查询,describe=使用订单信息查询, requestData={"ID_NO":"220105198506031993","NAME":"肖跑跑","SYS_SERVICE":"06100053","NBS_ORDER_NO":"233305252711928243","PS_CODE":"PS001401","MERCHANT_ID":"850130014331001","LOAN":[{"LOAN_RECEIPT_NBR":"G2233305252712032000","LOAN_MERGE_TYPE":"MORTGAGELOAN"}]}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=汽车金融-还款查询, apiName=汽车金融-还款查询, url=http://g1.test-adm.weoa.com/rcs-ucsa/carLoan/getRepayment, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=27]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="83" started-at="2019-11-26T14:21:25Z" data-provider="getData" finished-at="2019-11-26T14:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=汽车金融征信查询, apiId=汽车金融-征信查询,describe=按时间查询, requestData={"ID_NO":"220105198506031993","NAME":"肖跑跑","TIME_START":"20141116","TIME_END":"20191115"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"}], extractRespData=, apiInfo=ApiInfo [apiId=汽车金融-征信查询, apiName=汽车金融-征信查询, url=http://g1.test-adm.weoa.com/rcs-ucsa/carLoan/getCredit, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=28]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="261" started-at="2019-11-26T14:21:25Z" data-provider="getData" finished-at="2019-11-26T14:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=微粒贷客户信息1, apiId=新版本getDS,describe=APP_TYPE（0：ecifNo，1：qq openid，2：微信openId 3：手机号，4：身份证号）
+在线微信渠道验证：, requestData={"OPEN_ID":"oCRAms8XTUjLbL49vDi1JHlZqcFw","APP_TYPE":2}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.dsInfo[0].appType","expected":"WeChat"}], extractRespData=, apiInfo=ApiInfo [apiId=新版本getDS, apiName=新版本getDS, url=http://f1.test-adm.weoa.com/rcs-ucsa/business/getDS, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=29]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="254" started-at="2019-11-26T14:21:25Z" data-provider="getData" finished-at="2019-11-26T14:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=微粒贷客户信息2, apiId=新版本getDS,describe=话务渠道
+验证：:1、ecif、openid、姓名、性别
+2、手机号、是否结清、卡号
+3、最近一笔借款等, requestData={"OPEN_ID":13012123333,"APP_TYPE":3}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.dsInfo[0].appType","expected":"WeChat"},
+{"jsonPath":"$.result.personInfo.ecifNo","expected":"0999960201119468"},
+{"jsonPath":"$.result.dsInfo[0].open_ID","expected":"WX01"},
+{"jsonPath":"$.result.dsInfo[0].mobile_PHONE","expected":"13012123333"},
+{"jsonPath":"$.result.dsInfo[0].id_TYPE","expected":"01"},
+{"jsonPath":"$.result.dsInfo[0].default_LOGICAL_CARD_NO","expected":"8000030102632296"},
+{"jsonPath":"$.result.dsInfo[0].loan_TYPE_PROGRESS","expected":"NORMAL"}], extractRespData=
+
+, apiInfo=ApiInfo [apiId=新版本getDS, apiName=新版本getDS, url=http://f1.test-adm.weoa.com/rcs-ucsa/business/getDS, type=GET, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=30]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="FAIL" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="248" started-at="2019-11-26T14:21:26Z" data-provider="getData" finished-at="2019-11-26T14:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=移动分期客户信息, apiId=移动分期信息,describe=移动分期的账户信息查询
+移动分期填：201001
+140301199011121313
+620500198511122173
+411481199411129852
+核对信息：
+openID、ecifNO、证件类型、证件号码、性别、客群分类、借款手机号、是否委外、是否冻结、账户异常、是否结清、逾期周期、逻辑卡号、最后一笔分期借款、还款流水信息
+, requestData={"open_id":"620500198511122173","app_type":"I","product_cd":"201001"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.OPEN_ID","expected":"620500198511122173"},
+{"jsonPath":"$.result.NAME","expected":"赵子颜"},
+{"jsonPath":"$.result.PRODUCT_CD","expected":"201001"},
+{"jsonPath":"$.result.DEFAULT_LOGICAL_CARD_NO","expected":"8010010100017979"},
+{"jsonPath":"$.result.PAY_TXNS[0].PAY_AMOUT","expected":20.76},
+{"jsonPath":"$.result.PAY_TXNS[0].PAY_TYPE","expected":"1"},
+{"jsonPath":"$.result.PAY_TXNS[0].PAY_RESULT","expected":"1"},
+{"jsonPath":"$.result.LEND_TXNS[0].LEND_RESULT","expected":"0"}], extractRespData=[{"jsonPath":"$.result.OPEN_ID","paramName":"OPENID_YDFQ"},{"jsonPath":"$.result.ECIF_NO","paramName":"ECIF_YDFQ"}], apiInfo=ApiInfo [apiId=移动分期信息, apiName=移动分期信息, url=http://f1.test-adm.weoa.com/rcs-ucsa/mobileInstalment/getLastDeal, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=31]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [20.76] but found [20.76]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [20.76] but found [20.76]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.portal.base.utils.AssertUtils.assertRespKeyInfo(AssertUtils.java:47)
+	at com.portal.base.testCase.All_Test_Case.test_case(All_Test_Case.java:56)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="74" started-at="2019-11-26T14:21:26Z" data-provider="getData" finished-at="2019-11-26T14:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=移动分期止付, apiId=移动分期止付,describe=点击进线止付, requestData={"open_id":620500198511122173,"app_type":"I","reason":"1122","opt":"01","product_cd":"201001","umUser":"v_wbxingli"}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.SUCCESS_FLAG","expected":"1"}], extractRespData=, apiInfo=ApiInfo [apiId=移动分期止付, apiName=移动分期止付, url=http://f1.test-adm.weoa.com/rcs-ucsa/mobileInstalment/stopPayment, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=32]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="test_case(com.portal.base.pojo.ApiCaseDetail)[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="test_case" duration-ms="23" started-at="2019-11-26T14:21:26Z" data-provider="getData" finished-at="2019-11-26T14:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ApiCaseDetail [caseId=移动分期止付记录, apiId=移动分期最近止付记录,describe=止付操作记录：最近3条
+, requestData={"architectId":23,"ecifno":"0999960201124663","operateType":8,"startDate":1566489600000,"endDate":1574438399000,"size":3,"currentPage":1}, actualResp=, expectedRespKeyInfo=[{"jsonPath":"$.code","expected":"0"},
+{"jsonPath":"$.msg","expected":"请求成功"},
+{"jsonPath":"$.result.list[0].opt","expected":"1"}], extractRespData=, apiInfo=ApiInfo [apiId=移动分期最近止付记录, apiName=移动分期最近止付记录, url=http://f1.test-adm.weoa.com/rcs-ucsa/lossRecord/getByPage, type=POST, headers=[{"name":"Content-Type","value":"application/json;charset=UTF-8"}], auth=null], beforeCheckerList=null, afterCheckerList=null, getRowNo()=33]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.portal.base.testCase.All_Test_Case@ba8d91c]" name="afterSuite" is-config="true" duration-ms="994" started-at="2019-11-26T14:21:26Z" finished-at="2019-11-26T14:21:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.portal.base.testCase.All_Test_Case -->
-    </test> <!-- all-test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
